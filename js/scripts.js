@@ -15,3 +15,11 @@ let pokemonList = [
     type:['ground','poison']
   }
 ];
+
+  for (let i = 0; i < pokemonList.length; i++){
+    if(pokemonList[i].height < 1){
+    document.write(pokemonList[i].name + "'s height is " + pokemonList[i].height + '<br>');
+  }else if (pokemonList[i].height>= 1) {
+    document.write(pokemonList[i].name + "'s height is " + pokemonList[i].height + ". Wow, that's Big!" + '<br>')
+  }
+}
