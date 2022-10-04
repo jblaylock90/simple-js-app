@@ -6,4 +6,6 @@ body{
 button:hover, button:focus, .button:hover, .button:focus {
   /* reduces the opacity of the button to 80% */
     opacity: 0.8;
+    background-color: blue;
+    color: white;
   }
