@@ -1,11 +1,21 @@
 body{
-  background-color: green;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
-button:hover, button:focus, .button:hover, .button:focus {
-  /* reduces the opacity of the button to 80% */
-    opacity: 0.8;
-    background-color: blue;
-    color: white;
-  }
+.button {
+  width: 100%;
+  border: 5px solid var(--black);
+  border-radius: 0;
+  box-shadow: 5px 5px var(--black);
+  padding: 30px;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  background-color: var(--yellow);
+  font-weight: bold;
+  cursor: pointer;
+}
