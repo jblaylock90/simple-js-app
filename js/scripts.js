@@ -119,6 +119,7 @@ function hideModal() {
     modalContainer.classList.remove('is-visible');
 }
 
+
 return {
     add: add,
     getAll: getAll,
